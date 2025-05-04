@@ -1,0 +1,9 @@
+../Applications/Source/girgitware_spi_it.c:7:6:GW_SPI1_IRQHandler	8	static
+../Applications/Source/girgitware_spi_it.c:21:6:GW_SPI_TxCpltCallback	16	static
+../Applications/Source/girgitware_spi_it.c:31:6:GW_SPI_RxCpltCallback	16	static
+../Applications/Source/girgitware_spi_it.c:41:6:GW_SPI_TxRxCpltCallback	16	static
+../Applications/Source/girgitware_spi_it.c:51:6:GW_SPI_TxHalfCpltCallback	16	static
+../Applications/Source/girgitware_spi_it.c:61:6:GW_SPI_RxHalfCpltCallback	16	static
+../Applications/Source/girgitware_spi_it.c:71:6:GW_SPI_TxRxHalfCpltCallback	16	static
+../Applications/Source/girgitware_spi_it.c:81:6:GW_SPI_ErrorCallback	16	static
+../Applications/Source/girgitware_spi_it.c:91:6:GW_SPI_AbortCpltCallback	16	static

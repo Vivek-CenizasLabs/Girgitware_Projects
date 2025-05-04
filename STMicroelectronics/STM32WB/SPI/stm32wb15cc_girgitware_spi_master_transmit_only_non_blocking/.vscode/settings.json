@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#425376",
+        "activityBar.background": "#425376",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#af7085",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#425376",
+        "statusBar.background": "#303c55",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#425376",
+        "statusBarItem.remoteBackground": "#303c55",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#303c55",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#303c5599",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#303c55",
+    "files.associations": {
+        "girgitware_spi_const.h": "c",
+        "girgitware_spi_var.h": "c"
+    }
+}

@@ -1,0 +1,5 @@
+../Drivers/GirgitWare/Source/girgitware.c:21:6:SystemClock_Config	104	static
+../Drivers/GirgitWare/Source/girgitware.c:69:28:ErrorHandler	4	static
+../Drivers/GirgitWare/Source/girgitware.c:75:6:GirgitWareInit	8	static
+../Drivers/GirgitWare/Source/girgitware.c:81:6:SysTick_Handler	8	static
+../Drivers/GirgitWare/Source/girgitware.c:86:6:DelayMS	16	static
