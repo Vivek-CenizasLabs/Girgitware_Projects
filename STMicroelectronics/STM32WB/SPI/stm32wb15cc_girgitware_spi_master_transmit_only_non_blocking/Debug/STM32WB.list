@@ -29,17 +29,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  12 .debug_rnglists 00000892  00000000  00000000  00011ee0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_macro  0001d8ac  00000000  00000000  00012772  2**0
+ 13 .debug_macro  0001d8b2  00000000  00000000  00012772  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_line   0000b411  00000000  00000000  0003001e  2**0
+ 14 .debug_line   0000b411  00000000  00000000  00030024  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_str    000ae3ce  00000000  00000000  0003b42f  2**0
+ 15 .debug_str    000ae36f  00000000  00000000  0003b435  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .comment      000000c9  00000000  00000000  000e97fd  2**0
+ 16 .comment      000000c9  00000000  00000000  000e97a4  2**0
                   CONTENTS, READONLY
- 17 .debug_frame  000034d8  00000000  00000000  000e98c8  2**2
+ 17 .debug_frame  000034d8  00000000  00000000  000e9870  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line_str 00000062  00000000  00000000  000ecda0  2**0
+ 18 .debug_line_str 00000062  00000000  00000000  000ecd48  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -8556,9 +8556,9 @@ Infinite_Loop:
  800322a:	291d      	cmp	r1, #29
  800322c:	d82b      	bhi.n	8003286 <__sflush_r+0xb2>
  800322e:	4a2a      	ldr	r2, [pc, #168]	@ (80032d8 <__sflush_r+0x104>)
- 8003230:	40ca      	lsrs	r2, r1
+ 8003230:	410a      	asrs	r2, r1
  8003232:	07d6      	lsls	r6, r2, #31
- 8003234:	d527      	bpl.n	8003286 <__sflush_r+0xb2>
+ 8003234:	d427      	bmi.n	8003286 <__sflush_r+0xb2>
  8003236:	2200      	movs	r2, #0
  8003238:	6062      	str	r2, [r4, #4]
  800323a:	04d9      	lsls	r1, r3, #19
@@ -8630,7 +8630,7 @@ Infinite_Loop:
  80032d0:	4407      	add	r7, r0
  80032d2:	eba8 0800 	sub.w	r8, r8, r0
  80032d6:	e7e7      	b.n	80032a8 <__sflush_r+0xd4>
- 80032d8:	20400001 	.word	0x20400001
+ 80032d8:	dfbffffe 	.word	0xdfbffffe
 
 080032dc <_fflush_r>:
  80032dc:	b538      	push	{r3, r4, r5, lr}

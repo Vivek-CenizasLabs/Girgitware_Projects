@@ -21,6 +21,7 @@
     "peacock.color": "#303c55",
     "files.associations": {
         "girgitware_spi_const.h": "c",
-        "girgitware_spi_var.h": "c"
+        "girgitware_spi_var.h": "c",
+        "girgitware_index.h": "c"
     }
 }

@@ -526,7 +526,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ed ./Drivers/GirgitWare/Source/girgitware_spi.o
  .debug_macro   0x00000000      0x2d6 ./Drivers/GirgitWare/Source/girgitware_spi.o
  .debug_macro   0x00000000      0x100 ./Drivers/GirgitWare/Source/girgitware_spi.o
- .debug_macro   0x00000000       0x10 ./Drivers/GirgitWare/Source/girgitware_spi.o
+ .debug_macro   0x00000000       0x16 ./Drivers/GirgitWare/Source/girgitware_spi.o
  .group         0x00000000        0xc ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o
  .group         0x00000000        0xc ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o
  .group         0x00000000        0xc ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o
@@ -8190,7 +8190,7 @@ LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_rnglists
                 0x00000873       0x1f ./Applications/Startup/startup_stm32wb15ccux.o
 
-.debug_macro    0x00000000    0x1c418
+.debug_macro    0x00000000    0x1c41e
  .debug_macro   0x00000000      0x220 ./Drivers/GirgitWare/Source/girgitware.o
  .debug_macro   0x00000220      0xab4 ./Drivers/GirgitWare/Source/girgitware.o
  .debug_macro   0x00000cd4       0x22 ./Drivers/GirgitWare/Source/girgitware.o
@@ -8239,39 +8239,39 @@ LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_macro   0x00019a51       0x28 ./Drivers/GirgitWare/Source/girgitware_gpio.o
  .debug_macro   0x00019a79       0x10 ./Drivers/GirgitWare/Source/girgitware_gpio.o
  .debug_macro   0x00019a89      0x25d ./Drivers/GirgitWare/Source/girgitware_link_tables.o
- .debug_macro   0x00019ce6       0x10 ./Drivers/GirgitWare/Source/girgitware_link_tables.o
- .debug_macro   0x00019cf6      0x100 ./Drivers/GirgitWare/Source/girgitware_link_tables.o
- .debug_macro   0x00019df6      0x239 ./Drivers/GirgitWare/Source/girgitware_pin_map.o
- .debug_macro   0x0001a02f      0x272 ./Drivers/GirgitWare/Source/girgitware_spi.o
- .debug_macro   0x0001a2a1      0x22e ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o
- .debug_macro   0x0001a4cf      0x210 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o
- .debug_macro   0x0001a6df      0x210 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o
- .debug_macro   0x0001a8ef      0x217 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o
- .debug_macro   0x0001ab06      0x282 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o
- .debug_macro   0x0001ad88      0x27c ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o
- .debug_macro   0x0001b004      0x2f1 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b2f5       0x61 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b356       0x2a ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b380       0x43 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b3c3       0x34 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b3f7       0x16 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b40d       0x35 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b442      0x369 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b7ab       0x10 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b7bb       0x16 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b7d1       0x43 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b814       0x34 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b848       0x10 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b858       0x58 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b8b0       0x8e ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b93e       0x1c ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001b95a      0x177 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001bad1       0x16 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001bae7       0x16 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001bafd      0x146 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
- .debug_macro   0x0001bc43      0x354 ./Applications/Source/girgitware_main.o
- .debug_macro   0x0001bf97      0x271 ./Applications/Source/girgitware_spi_it.o
- .debug_macro   0x0001c208      0x210 ./Applications/Source/system_stm32wbxx.o
+ .debug_macro   0x00019ce6       0x16 ./Drivers/GirgitWare/Source/girgitware_link_tables.o
+ .debug_macro   0x00019cfc      0x100 ./Drivers/GirgitWare/Source/girgitware_link_tables.o
+ .debug_macro   0x00019dfc      0x239 ./Drivers/GirgitWare/Source/girgitware_pin_map.o
+ .debug_macro   0x0001a035      0x272 ./Drivers/GirgitWare/Source/girgitware_spi.o
+ .debug_macro   0x0001a2a7      0x22e ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o
+ .debug_macro   0x0001a4d5      0x210 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o
+ .debug_macro   0x0001a6e5      0x210 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o
+ .debug_macro   0x0001a8f5      0x217 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o
+ .debug_macro   0x0001ab0c      0x282 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o
+ .debug_macro   0x0001ad8e      0x27c ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o
+ .debug_macro   0x0001b00a      0x2f1 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b2fb       0x61 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b35c       0x2a ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b386       0x43 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b3c9       0x34 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b3fd       0x16 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b413       0x35 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b448      0x369 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b7b1       0x10 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b7c1       0x16 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b7d7       0x43 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b81a       0x34 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b84e       0x10 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b85e       0x58 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b8b6       0x8e ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b944       0x1c ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001b960      0x177 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001bad7       0x16 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001baed       0x16 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001bb03      0x146 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_macro   0x0001bc49      0x354 ./Applications/Source/girgitware_main.o
+ .debug_macro   0x0001bf9d      0x271 ./Applications/Source/girgitware_spi_it.o
+ .debug_macro   0x0001c20e      0x210 ./Applications/Source/system_stm32wbxx.o
 
 .debug_line     0x00000000     0xb133
  .debug_line    0x00000000      0x706 ./Drivers/GirgitWare/Source/girgitware.o
@@ -8291,38 +8291,38 @@ LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_line    0x0000a9bb      0x6f5 ./Applications/Source/system_stm32wbxx.o
  .debug_line    0x0000b0b0       0x83 ./Applications/Startup/startup_stm32wb15ccux.o
 
-.debug_str      0x00000000    0xadd43
+.debug_str      0x00000000    0xadd59
  .debug_str     0x00000000    0xa667b ./Drivers/GirgitWare/Source/girgitware.o
                               0xa70f5 (size before relaxing)
  .debug_str     0x000a667b      0x2ff ./Drivers/GirgitWare/Source/girgitware_gpio.o
                               0xa7196 (size before relaxing)
- .debug_str     0x000a697a      0xbb9 ./Drivers/GirgitWare/Source/girgitware_link_tables.o
-                              0xa7880 (size before relaxing)
- .debug_str     0x000a7533       0x7a ./Drivers/GirgitWare/Source/girgitware_pin_map.o
+ .debug_str     0x000a697a      0xbcf ./Drivers/GirgitWare/Source/girgitware_link_tables.o
+                              0xa7896 (size before relaxing)
+ .debug_str     0x000a7549       0x7a ./Drivers/GirgitWare/Source/girgitware_pin_map.o
                               0xa7231 (size before relaxing)
- .debug_str     0x000a75ad      0x69e ./Drivers/GirgitWare/Source/girgitware_spi.o
-                              0xa81f7 (size before relaxing)
- .debug_str     0x000a7c4b      0x8cb ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o
+ .debug_str     0x000a75c3      0x69e ./Drivers/GirgitWare/Source/girgitware_spi.o
+                              0xa820d (size before relaxing)
+ .debug_str     0x000a7c61      0x8cb ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o
                               0xa7bbc (size before relaxing)
- .debug_str     0x000a8516      0x3aa ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o
+ .debug_str     0x000a852c      0x3aa ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o
                               0xa751c (size before relaxing)
- .debug_str     0x000a88c0      0x2b3 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o
+ .debug_str     0x000a88d6      0x2b3 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o
                               0xa724d (size before relaxing)
- .debug_str     0x000a8b73      0x128 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o
+ .debug_str     0x000a8b89      0x128 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o
                               0xa6f5f (size before relaxing)
- .debug_str     0x000a8c9b      0x62b ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o
+ .debug_str     0x000a8cb1      0x62b ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o
                               0xa73e9 (size before relaxing)
- .debug_str     0x000a92c6      0xafa ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o
+ .debug_str     0x000a92dc      0xafa ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o
                               0xa7d1d (size before relaxing)
- .debug_str     0x000a9dc0     0x3b24 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
+ .debug_str     0x000a9dd6     0x3b24 ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.o
                               0xaaebe (size before relaxing)
- .debug_str     0x000ad8e4      0x330 ./Applications/Source/girgitware_main.o
+ .debug_str     0x000ad8fa      0x330 ./Applications/Source/girgitware_main.o
                               0xaafd4 (size before relaxing)
- .debug_str     0x000adc14       0x39 ./Applications/Source/girgitware_spi_it.o
+ .debug_str     0x000adc2a       0x39 ./Applications/Source/girgitware_spi_it.o
                               0xa7517 (size before relaxing)
- .debug_str     0x000adc4d       0x78 ./Applications/Source/system_stm32wbxx.o
+ .debug_str     0x000adc63       0x78 ./Applications/Source/system_stm32wbxx.o
                               0xa6f84 (size before relaxing)
- .debug_str     0x000adcc5       0x7e ./Applications/Startup/startup_stm32wb15ccux.o
+ .debug_str     0x000adcdb       0x7e ./Applications/Startup/startup_stm32wb15ccux.o
 
 .comment        0x00000000       0x86
  .comment       0x00000000       0x43 ./Drivers/GirgitWare/Source/girgitware.o

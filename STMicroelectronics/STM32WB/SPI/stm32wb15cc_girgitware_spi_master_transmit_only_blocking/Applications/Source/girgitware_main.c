@@ -128,8 +128,8 @@ void SPI1_PinSetup(SPI_Handle *user_spi_handle)
     GPIO_Handle gpioHandle = {0};
 
     // Configure MISO pin (PA.11)
-    gpioHandle.port = portMap[PORT_A];
-    gpioHandle.pin = pinMap[PIN_11];
+    gpioHandle.port = portMap[PORT_A]; 
+    gpioHandle.pin = pinMap[PIN_11]; 
     gpioHandle.mode = GPIO_MODE_AF_PP;
     gpioHandle.pullUpPullDownSelect = GPIO_NO_PULL;
     gpioHandle.alternateFunction = GPIO_AF5_SPI1;

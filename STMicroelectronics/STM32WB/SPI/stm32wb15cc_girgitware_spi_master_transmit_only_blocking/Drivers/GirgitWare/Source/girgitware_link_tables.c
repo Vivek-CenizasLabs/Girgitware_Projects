@@ -18,4 +18,6 @@
 
 #include "girgitware_link_tables.h"
 
+#if defined (HAL_SPI_MODULE_ENABLED)
 SPI_LinkTypeDef spiHandleLinkTable[SPI_HANDLE_LINK_TABLE_SIZE] = {0};
+#endif
